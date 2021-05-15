@@ -1,0 +1,315 @@
+--Made By LIL RI$ING🥶#4747
+
+local ScreenGui = Instance.new("ScreenGui")
+local dahoodmain = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local dahood1 = Instance.new("TextButton")
+local dahood2 = Instance.new("TextButton")
+local dahood3 = Instance.new("TextButton")
+local dahood4 = Instance.new("TextButton")
+local dahood5 = Instance.new("TextButton")
+local dahood6 = Instance.new("TextButton")
+local dahood7 = Instance.new("TextButton")
+local dahood8 = Instance.new("TextButton")
+local dahood9 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local opendahoodmain = Instance.new("Frame")
+local openscript = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+dahoodmain.Name = "dahoodmain"
+dahoodmain.Parent = ScreenGui
+dahoodmain.BackgroundColor3 = Color3.fromRGB(29, 0, 255)
+dahoodmain.Position = UDim2.new(0.13909775, 0, 0.358146071, 0)
+dahoodmain.Size = UDim2.new(0, 417, 0, 255)
+dahoodmain.Visible = false
+dahoodmain.Active = true
+dahoodmain.Draggable = true
+
+TextLabel.Parent = dahoodmain
+TextLabel.BackgroundColor3 = Color3.fromRGB(131, 106, 255)
+TextLabel.Size = UDim2.new(0, 417, 0, 38)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "LAKES GUI"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+dahood1.Name = "dahood1"
+dahood1.Parent = dahoodmain
+dahood1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+dahood1.Position = UDim2.new(0.0479616299, 0, 0.235294119, 0)
+dahood1.Size = UDim2.new(0, 103, 0, 50)
+dahood1.Font = Enum.Font.LuckiestGuy
+dahood1.Text = "RAYCODEX"
+dahood1.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood1.TextSize = 14.000
+RAYCODEX.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+
+dahood2.Name = "dahood2"
+dahood2.Parent = dahoodmain
+dahood2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+dahood2.Position = UDim2.new(0.376498789, 0, 0.235294119, 0)
+dahood2.Size = UDim2.new(0, 103, 0, 50)
+dahood2.Font = Enum.Font.LuckiestGuy
+dahood2.Text = "SWAGMODE"
+dahood2.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood2.TextSize = 14.000
+SWAGMODE.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/swagPLUS"))()
+end)
+
+dahood3.Name = "dahood3"
+dahood3.Parent = dahoodmain
+dahood3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+dahood3.Position = UDim2.new(0.685851276, 0, 0.235294119, 0)
+dahood3.Size = UDim2.new(0, 103, 0, 50)
+dahood3.Font = Enum.Font.LuckiestGuy
+dahood3.Text = "AIMBOT "
+dahood3.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood3.TextSize = 14.000
+AIMBOT.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
+end)
+
+dahood4.Name = "dahood4"
+dahood4.Parent = dahoodmain
+dahood4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+dahood4.Position = UDim2.new(0.685851276, 0, 0.490196109, 0)
+dahood4.Size = UDim2.new(0, 103, 0, 50)
+dahood4.Font = Enum.Font.LuckiestGuy
+dahood4.Text = "ANIMATION EDITER"
+dahood4.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood4.TextScaled = true
+dahood4.TextSize = 14.000
+dahood4.TextWrapped = true
+ANIMATION EDITER.MouseButton1Down:connect(function()
+	teclaopen = "B" --- Change the key, for the one you like to close the GUI
+
+	loadstring(game:HttpGet("https://god-x.000webhostapp.com/linkAnimatorEdit.lua", true))()
+end)
+
+dahood5.Name = "dahood5"
+dahood5.Parent = dahoodmain
+dahood5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+dahood5.Position = UDim2.new(0.376498789, 0, 0.490196109, 0)
+dahood5.Size = UDim2.new(0, 103, 0, 50)
+dahood5.Font = Enum.Font.LuckiestGuy
+dahood5.Text = "CHAT BYPASS"
+dahood5.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood5.TextSize = 14.000
+CHAT BYPASS.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+end)
+
+dahood6.Name = "dahood6"
+dahood6.Parent = dahoodmain
+dahood6.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+dahood6.Position = UDim2.new(0.0479616299, 0, 0.490196109, 0)
+dahood6.Size = UDim2.new(0, 103, 0, 50)
+dahood6.Font = Enum.Font.LuckiestGuy
+dahood6.Text = "FADED"
+dahood6.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood6.TextSize = 14.000
+FADED.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+end)
+
+dahood7.Name = "dahood7"
+dahood7.Parent = dahoodmain
+dahood7.BackgroundColor3 = Color3.fromRGB(255, 123, 238)
+dahood7.Position = UDim2.new(-7.31836423e-08, 0, 0.807843149, 0)
+dahood7.Size = UDim2.new(0, 114, 0, 49)
+dahood7.Font = Enum.Font.LuckiestGuy
+dahood7.Text = "MOD PANEL (cant ban)"
+dahood7.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood7.TextScaled = true
+dahood7.TextSize = 14.000
+dahood7.TextWrapped = true
+MOD PANEL (cant ban).MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Manny72911/modmenu/main/modmenu"))()
+end)
+
+dahood8.Name = "dahood8"
+dahood8.Parent = dahoodmain
+dahood8.BackgroundColor3 = Color3.fromRGB(255, 161, 246)
+dahood8.Position = UDim2.new(0.726618648, 0, 0.807843149, 0)
+dahood8.Size = UDim2.new(0, 114, 0, 49)
+dahood8.Font = Enum.Font.LuckiestGuy
+dahood8.Text = "BIG HEAD SCRIPT FOR RTHRO"
+dahood8.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood8.TextScaled = true
+dahood8.TextSize = 14.000
+dahood8.TextWrapped = true
+BIG HEAD SCRIPT FOR RTHRO.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/ProjectBoring/Head-Resize-v1/main/Head%20Size%20Obfuscated.lua'))()
+end)
+
+dahood9.Name = "dahood9"
+dahood9.Parent = dahoodmain
+dahood9.BackgroundColor3 = Color3.fromRGB(229, 150, 255)
+dahood9.Position = UDim2.new(0.350119919, 0, 0.807843149, 0)
+dahood9.Size = UDim2.new(0, 114, 0, 49)
+dahood9.Font = Enum.Font.LuckiestGuy
+dahood9.Text = "FAST DROPPER X"
+dahood9.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood9.TextSize = 14.000
+FAST DROPPER X.MouseButton1Down:connect(function()
+	-- Example made by twink marie
+	local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local mouse = LocalPlayer:GetMouse()
+	local Camera = workspace.CurrentCamera
+	local Debris = game:GetService("Debris")
+	local UserInputService = game:GetService("UserInputService")
+	warn("Loading script...")
+
+
+
+
+	local X = Material.Load({
+		Title = "Fast Dropper X",
+		Style = 3,
+		SizeX = 500,
+		SizeY = 350,
+		Theme = "Dark",
+		ColorOverrides = {
+		}
+	})
+
+	local Y = X.New({
+		Title = "Main"
+	})
+
+	local oneml = Y.Toggle({
+		Text = "One Million",
+		Callback = function(Value)
+
+		end,
+	})
+
+	local two = Y.Toggle({
+		Text = "Two Million",
+		Callback = function(Value)
+
+		end,
+	})
+	local thr = Y.Toggle({
+		Text = "Three Million",
+		Callback = function(Value)
+
+		end,
+	})
+
+	local fiu = Y.Toggle({
+		Text = "Four Million",
+		Callback = function(Value)
+
+		end,
+	})
+
+	local fivwv = Y.Toggle({
+		Text = "Five Million",
+		Callback = function(Value)
+
+		end,
+	})
+	local otneml = Y.Toggle({
+		Text = "Ten Million",
+		Callback = function(Value)
+
+		end,
+	})
+	local all = Y.Toggle({
+		Text = "All",
+		Callback = function(Value)
+
+		end,
+	})
+
+
+	local Start = Y.Button({
+		Text = "Start",
+		Callback = function()
+			-- // Vars
+			local Workspace = game.Workspace
+			local Ignored = Workspace.Ignored
+			local Drops = Ignored.Drop
+			local LocalPlayer = game.Players.LocalPlayer
+			local Char = LocalPlayer.Character
+			local Hum = Char.HumanoidRootPart
+			local AMT = 10000
+			game.ReplicatedStorage.MainEvent:FireServer("DropMoney",AMT)
+			while wait(2.10) do
+				for i, v in pairs(Drops:GetChildren()) do
+					if v.Name == "MoneyDrop" and (Hum.Position - v.Position).Magnitude < 20 then
+						local clo = v:Clone()
+						wait()
+						clo.Parent = Drops
+						clo.Position = Hum.Position
+						clo.CFrame = Hum.CFrame
+						wait()
+						game:GetService("Players").LocalPlayer.DataFolder.Currency.Value = game:GetService("Players").LocalPlayer.DataFolder.Currency.Value - 10000
+						if game:GetService("Players").LocalPlayer.DataFolder.Currency.Value < 10000 then
+							break
+						end
+					end
+				end
+			end
+			wait()
+
+
+		end,
+	})
+end)
+
+TextLabel_2.Parent = dahoodmain
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(94, 255, 25)
+TextLabel_2.Position = UDim2.new(0.107913673, 0, 0.725490212, 0)
+TextLabel_2.Size = UDim2.new(0, 315, 0, 13)
+TextLabel_2.Font = Enum.Font.Kalam
+TextLabel_2.Text = "FUN SCRIPTS"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+close.Name = "close"
+close.Parent = dahoodmain
+close.BackgroundColor3 = Color3.fromRGB(235, 255, 102)
+close.Position = UDim2.new(0.863309324, 0, 0, 0)
+close.Size = UDim2.new(0, 57, 0, 38)
+close.Font = Enum.Font.LuckiestGuy
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 28.000
+close.MouseButton1Down:connect(function()
+	close.MouseButton1Down:connect(function()
+		dahoodmain.Visible = false
+		opendahoodmain.Visible = true
+	end)
+opendahoodmain.Name = "opendahoodmain"
+opendahoodmain.Parent = ScreenGui
+opendahoodmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+opendahoodmain.Position = UDim2.new(0, 0, 0.817415714, 0)
+opendahoodmain.Size = UDim2.new(0, 146, 0, 23)
+opendahoodmain.Active = true
+opendahoodmain.Draggable = true
+
+openscript.Name = "openscript"
+openscript.Parent = opendahoodmain
+openscript.BackgroundColor3 = Color3.fromRGB(66, 255, 243)
+openscript.Size = UDim2.new(0, 146, 0, 23)
+openscript.Font = Enum.Font.PermanentMarker
+openscript.Text = "Open"
+openscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+openscript.TextSize = 14.000
+	opendahoodmain.MouseButton1Down:connect(function()
+		opendahoodmain.Visible = false
+		dahoodmain.Visible = true
+	end)
